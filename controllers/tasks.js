@@ -7,7 +7,7 @@ const getAllTasks = asyncWrapper(async(req, res) => {
     res.status(200).json({ tasks })
         // or // res.status(200).json({ tasks,amoutn:task.length }) or
         // res.status(200).json({ status: 'success', data: { tasks, nbHits: tasks.length } })
-    res.status(500).json({ msg: error });
+        // res.status(500).json({ msg: error });
 
 })
 
